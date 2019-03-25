@@ -50,4 +50,6 @@ after of all the configuration, we need to add this follow lines code, correspon
 ```
 
 ## STEP 6:
-Then it's time to compile, and 
+Then it's time to compile, and test your proyects and conexions with this library.
+
+![Example4](https://github.com/Estraus96/Prueba-ESP32/blob/master/ej4.jpg)
