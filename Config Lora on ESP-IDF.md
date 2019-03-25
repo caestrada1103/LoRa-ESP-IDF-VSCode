@@ -6,7 +6,7 @@ It is clear that this explanation works for any library, especially if you want 
 ## STEP 1:
 Create a normal proyect on VSCode with Framework ESP-IDF, in my case, i will be use Board DOIT ESP32 DEVKIT V1
 
-
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ## STEP 2: 
 Download the LoRa Library right here https://github.com/Inteform/esp32-lora-library
