@@ -15,7 +15,7 @@ Download the LoRa Library right here https://github.com/Inteform/esp32-lora-libr
 Extract them
 
 ### STEP 2.2:
-Go to the Extract Folder and find into components
+Go to the Extract Folder and find into folder called "components"
 
 ### STEP 2.3:
 Into Components you can see the folder called "lora", in there can see the lora.c and other folder called "include"
@@ -26,4 +26,9 @@ Into the folder previously named "include", copy the file "lora.h" and do the sa
 
 after the above, the src folder of the project must contain these files:
 
+![Example3](https://github.com/Estraus96/Prueba-ESP32/blob/master/EJ3.jpg)
 
+## STEP 3:
+After the previous step, we return to VSCode and include the lora.h in our proyect just like that
+
+![Example2](https://github.com/Estraus96/Prueba-ESP32/blob/master/EJ2.jpg)
