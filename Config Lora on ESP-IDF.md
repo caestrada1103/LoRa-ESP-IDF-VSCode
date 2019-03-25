@@ -29,6 +29,25 @@ after the above, the src folder of the project must contain these files:
 ![Example3](https://github.com/Estraus96/Prueba-ESP32/blob/master/EJ3.jpg)
 
 ## STEP 3:
-After the previous step, we return to VSCode and include the lora.h in our proyect just like that
+After the previous step, we return to VSCode and include the lora.h in our proyect just like that:
 
 ![Example2](https://github.com/Estraus96/Prueba-ESP32/blob/master/EJ2.jpg)
+
+## STEP 4:
+After all previus step, we see 8 mistakes the file "lora.c", this is because we didn't define the ports will be normaly use with this library, now we need to define the ports will be use.
+
+## STEP 5:
+Then we need to open and edit the file "sdkconfig.h" (file that generate automaticaly when finished the compiler task)
+
+after of all the configuration, we need to add this follow lines code, corresponding to the ports that LoRa will be use
+
+```C
+#define CONFIG_CS_GPIO 15
+#define CONFIG_RST_GPIO 32
+#define CONFIG_MISO_GPIO 13
+#define CONFIG_MOSI_GPIO 12
+#define CONFIG_SCK_GPIO 14
+```
+
+## STEP 6:
+Then it's time to compile, and 
