@@ -6,7 +6,7 @@ It is clear that this explanation works for any library, especially if you want 
 ## STEP 1:
 Create a normal proyect on VSCode with Framework ESP-IDF, in my case, i will be use Board DOIT ESP32 DEVKIT V1
 
-![Example1](https://github.com/Estraus96/Prueba-ESP32/blob/master/EJ1.jpg)
+![Example1](https://github.com/Estraus96/Prueba-ESP32/blob/master/Pictures/EJ1.jpg)
 
 ## STEP 2: 
 Download the LoRa Library right here https://github.com/Inteform/esp32-lora-library
@@ -26,12 +26,12 @@ Into the folder previously named "include", copy the file "lora.h" and do the sa
 
 after the above, the src folder of the project must contain these files:
 
-![Example3](https://github.com/Estraus96/Prueba-ESP32/blob/master/EJ3.jpg)
+![Example3](https://github.com/Estraus96/Prueba-ESP32/blob/master/Pictures/EJ3.jpg)
 
 ## STEP 3:
 After the previous step, we return to VSCode and include the lora.h in our proyect just like that:
 
-![Example2](https://github.com/Estraus96/Prueba-ESP32/blob/master/EJ2.jpg)
+![Example2](https://github.com/Estraus96/Prueba-ESP32/blob/master/Pictures/EJ2.jpg)
 
 ## STEP 4:
 After all previus step, we see 8 mistakes the file "lora.c", this is because we didn't define the ports will be normaly use with this library, now we need to define the ports will be use.
@@ -52,4 +52,4 @@ after of all the configuration, we need to add this follow lines code, correspon
 ## STEP 6:
 Then it's time to compile, and test your proyects and conexions with this library.
 
-![Example4](https://github.com/Estraus96/Prueba-ESP32/blob/master/ej4.jpg)
+![Example4](https://github.com/Estraus96/Prueba-ESP32/blob/master/Pictures/EJ4.jpg)
