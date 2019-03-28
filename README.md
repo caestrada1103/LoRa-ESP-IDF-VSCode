@@ -1,4 +1,4 @@
-# LoRa on ESP32 wiht VSCode
+# LoRa on ESP32 with VSCode
 
 HI, this repository show and explain you how configure correctly the LoRa library for individual proyect, this can be use when
 need proyects with more librarys and more ports define on your ESP32 module.
